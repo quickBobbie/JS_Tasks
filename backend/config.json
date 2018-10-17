@@ -1,0 +1,28 @@
+{
+	"server" : {
+		"port" : 3000
+	},
+
+	"database" : {
+		"host" : "localhost",
+		"port" : 27017,
+		"database" : "nodelearn",
+		"options" : {
+			"useNewUrlParser" : true,
+			"useCreateIndex" : true
+		}
+	},
+
+	"client" : {
+		"url" : "*"
+	},
+
+	"auth" : {
+		"secret" : "this is secret key",
+		"session" : false,
+		"basic" : {
+			"usernameField" : "login",
+			"passwordField" : "password"
+		}
+	}
+}
